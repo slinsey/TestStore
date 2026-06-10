@@ -8,6 +8,22 @@
  * ------------------------------------------------------------
  */{
   "sections": {
+    "lambo_hero": {
+      "type": "lambo-hero",
+      "settings": {
+        "heading": "Raging Bulls",
+        "subheading": "Four shades of Aventador.",
+        "heading_size": 48,
+        "alignment": "center",
+        "image_ratio": "3 / 2",
+        "gap": 16,
+        "corner_radius": 8,
+        "stack_on_mobile": false,
+        "color_scheme": "scheme-1",
+        "padding-block-start": 48,
+        "padding-block-end": 48
+      }
+    },
     "hero_jVaWmY": {
       "type": "hero",
       "blocks": {
@@ -284,6 +300,7 @@
     }
   },
   "order": [
+    "lambo_hero",
     "hero_jVaWmY",
     "product_list_fa6P9H"
   ]
